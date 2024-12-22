@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .banner {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #f3f3f3;
+        }
+        .category {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            margin: 0 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .product {
+            flex: 1 1 calc(33.333% - 40px);
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>Welcome to Our Online Shop</h1>
+        <p>Find the best products here!</p>
+    </div>
+    <div class="categories">
+        <div class="category">
+            <h2>Category 1</h2>
+            <p>Description for category 1</p>
+        </div>
+        <div class="category">
+            <h2>Category 2</h2>
+            <p>Description for category 2</p>
+        </div>
+        <div class="category">
+            <h2>Category 3</h2>
+            <p>Description for category 3</p>
+        </div>
+    </div>
+    <div class="products">
+        <div class="product">
+            <h3>Product 1</h3>
+            <p>$10.00</p>
+        </div>
+        <div class="product">
+            <h3>Product 2</h3>
+            <p>$20.00</p>
+        </div>
+        <div class="product">
+            <h3>Product 3</h3>
+            <p>$30.00</p>
+        </div>
+        <div class="product">
+            <h3>Product 4</h3>
+            <p>$40.00</p>
+        </div>
+        <div class="product">
+            <h3>Product 5</h3>
+            <p>$50.00</p>
+        </div>
+        <div class="product">
+            <h3>Product 6</h3>
+            <p>$60.00</p>
+        </div>
+    </div>
+</body>
+</html>
